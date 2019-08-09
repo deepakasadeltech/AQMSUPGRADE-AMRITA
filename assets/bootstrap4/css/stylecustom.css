@@ -1,0 +1,438 @@
+/*@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');*/
+@font-face {
+    font-family: Poiret One;
+    src: url(../../../fonts_c/PoiretOne-Regular.ttf);
+  }
+.lightblack{background:#455a64}
+.prioritybox{width:100%;margin:23px 0 0;padding:0;text-align:center;border-radius:3px;overflow:hidden}
+.prioritybox ul{list-style:none;margin:0;padding:0}
+.prioritybox ul li{display:inline-block;width:32.33333%}
+.prioritybox ul li span{display:block;text-align:center;text-transform:uppercase;font-size:14px}
+.prioritybox ul li span:first-child{padding-bottom:3px}
+.prioritybox ul li span:last-child{background:#333;font-size:1.8rem}
+.pripad{padding:10px 0 0!important}
+.plbg{background:#e5e4e2}
+.plclr{color:#e5e4e2}
+.glbg{background:#FFD700}
+.glclr{color:#FFD700}
+.slbg{background:silver}
+.slclr{color:silver}
+.responsive_info p{font-size:13px!important}
+.plbox{background:#e5e4e2;display:inline-block;padding:5px 10px;box-shadow:0 0 2px #555}
+.glbox{background:#FFD700;display:inline-block;padding:5px 10px;box-shadow:0 0 2px #555}
+.slbox{background:silver;display:inline-block;padding:5px 10px;box-shadow:0 0 2px #555}
+.nlbox{background:transparent;display:inline-block;padding:5px 10px}
+.erbox{background:transparent;color:red;display:inline-block;padding:5px 10px}
+.boxmodi{text-transform:uppercase;font-size:10px;padding:3px 6px!important;width:71px}
+.depdisplay{width:100%;margin:0;padding:0;position:relative}
+.depdisplay span{display:block;line-height:normal;font-size:25px}
+.depdisplay span:last-child{font-size:18px}
+.depdisplay sup{position:absolute;top:4px;right:-16px;font-size:20px;color:#fff}
+.startsub{font-size:20px;color:#fff}
+.queuebox a{background-color:#009688!important;position:relative;margin:7px!important;font-size:15px;padding:7px 20px!important;line-height:normal;height:auto!important}
+.queuetokenbox{width:100%;margin:0;padding:10px 20px 20px;position:relative;text-align:center}
+.queuetokenbox ul{margin:auto;background:transparent;text-align:center;display:inline-block!important;position:relative;width:auto!important}
+.queuetokenbox ul li{background:transparent;display:inline-block!important;flex-grow:0!important;width:auto!important;float:none!important;height:auto!important;line-height:normal!important}
+.queuetokenbox ul li a{display:block!important;background:#253a0e;color:#fff!important;padding:11px 20px;font-weight:700;border-radius:20px}
+.queuetokenbox ul li.tab a.active{background:#814374}
+.queuetokenbox .tabs .indicator{background:#814374}
+.queuebox a span.startsub{position:absolute;top:1px;right:4px}
+.queuebox .depdisplay span{font-size:15px}
+.queuebox .depdisplay strong{position:absolute;top:-4px;right:-15px}
+.queuetokenbox.kioskboxx ul{margin:auto;background:transparent;text-align:center;display:inline-block!important;position:relative;width:auto!important}
+.queuetokenbox.kioskboxx ul li{background:transparent;display:inline-block!important;flex-grow:0!important;width:auto!important;float:none!important;height:auto!important;line-height:normal!important}
+.queuetokenbox.kioskboxx ul li a{display:block!important;background:red;color:#fff!important;font-size:33px;padding:4px 20px!important;height:auto!important; border-radius: 0px;}
+.queuetokenbox.kioskboxx ul li.tab a.active{background:red}
+.queuetokenbox.kioskboxx .tabs .indicator{background:#006400;display:none}
+.queuetokenbox.kioskboxx a.ttabbox{display:inline-block!important;background:#006400;color:#fff!important;font-size:25px;margin:4px;padding:1px 20px!important;height:auto!important}
+.queuetokenbox.kioskboxx ul li.tab a:hover,.queuetokenbox.kioskboxx ul li.tab a:focus{background:#006400}
+.custompopup{width:90%!important;float:none;min-height:20vh;margin:auto;padding:0 30px 30px!important;background:rgba(255,255,255,0.9);position:absolute;left:0!important;right:0!important}
+.custompopup h1{color:#fff;font-size:30px;text-transform:uppercase;text-align:center;background:red;margin:0 -30px 10px;padding:8px;font-weight:600}
+.tabbtn{position:absolute;right:0;top:0;background:red;color:#fff;border:none;width:30px;height:auto;text-align:center;font-size:30px;line-height:46px}
+.padtop{padding-top:30px!important;padding-bottom:30px!important}
+.padtop .tabs .tab{margin:5px}
+.custompopup.callpopup{width:100%!important;background:rgba(204,204,204,0.9);min-height:30vh}
+
+.queuetokenbox.calltab{width:auto;text-align:left}
+.queuetokenbox.calltab ul li a{font-size:18px;padding:5px 20px!important; border-radius: 0px; background:red}
+.queuetokenbox.calltab ul li a .startsub{font-size:14px}
+.queuetokenbox.calltab ul li.tab a.active{background:red}
+.queuetokenbox.calltab .tabs .indicator{background:#006400;display:none}
+.queuetokenbox.calltab a.ttabbox{display:inline-block!important;background:#006400;color:#fff!important;font-size:15px;margin:4px;padding:1px 10px!important;height:auto!important;line-height:30px}
+.queuetokenbox.calltab ul li a.csfloat{padding:0 20px!important}
+.queuetokenbox.calltab .padtop{padding-top:0!important;padding-bottom:0!important}
+.queuetokenbox.calltab ul li.tab a:hover,.queuetokenbox.calltab ul li.tab a:focus{background:#006400}
+.notitext{color: #a4123f !important;}
+.queuelogo{width:100%; margin: 0px; padding:0px; float: left; border-bottom: 1px dashed rgba(0,255,0,0.9);}
+.queuelogo h2{margin:0px; padding: 0px;}
+.queuelogo span{display: inline-block; }
+.queuelogo span:first-child{width:80px; height: 80px; display: block; float: left;}
+.queuelogo img{max-width: 100%;}
+.queuelogo span:last-child{font-size: 30px;
+    font-weight: 600; color:#f2f2f2;
+    padding: 6px 0; float: left;
+    margin-left: 10px;}
+
+.queuelogo span:last-child::first-word{color:#f00;}  
+span.amritahosp{font-size: 52px !important;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0px !important;} 
+
+.queue_time{padding:23px 0 !important;}
+
+.queuelogo.displaylogo .first, .queuelogo span:last-child .first{letter-spacing: 6px; font-size: 39px; text-transform: uppercase;}
+.queuelogo.displaylogo .second, .queuelogo span:last-child .second{font-weight: 600; 
+    /*font-family: 'Poiret One', cursive;*/
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;}
+.queuelogo.displaylogo .third, .queuelogo span:last-child .third{font-size: 35px;}
+.addtoqueuesection:before {background: rgba(0,97,64,0.9) !important;}
+.queuelogo.displaylogo span:last-child{color:#000;}
+.doctorimgbox{width: 150px; border-radius: 20px;
+    position: relative;
+    background: #fff;
+    padding: 3px}
+.doctorimgbox img{max-width: 100%; border-radius: 20px 20px 0px 0px; border-bottom:3px solid green;}
+.doctorimgbox .startsub{position: absolute;
+    right: 7px;
+    top: 0;
+    color: #f00;
+    font-size: 30px;}
+.boxdept a.dphotobox{padding: 0px !important; margin: 13px !important; background: transparent; text-decoration: none; border-radius: 20px;}
+.doctorimgbox h2{margin:0px; padding: 0px; font-size: 14px; color: green; text-transform: capitalize;}
+.doctorimgbox h3{margin:5px 0 15px 0px; padding: 0px; font-size: 12px; color:#000; font-style: italic; font-weight: 600;}
+.boxdept a.dphotobox:hover{background-color: #F00 !important;}
+.kioskadvertisement{width: 100%; position: fixed; bottom: 0px; color:#089de3; background: #111; padding: 10px 30px 8px 30px; font-size: 40px; text-transform: uppercase; font-weight: 900;}
+
+.displaytime.displaytime2{ float: none; margin: 0 0 10px 0;}
+.boxrow table caption h1.display2heading{ text-align: center;}
+
+.doctordetaildisplaybox{    width: 100%;
+    margin: 0px;
+    background: #006140;
+    padding: 10px;
+    float: left;
+    overflow: hidden;
+    height: 76.5vh;
+    box-shadow: 0px 1px 4px #000;}
+.doctordetaildisplaybox img{max-width: 100%;}
+.doctorpbox{width: 200px; overflow: hidden;
+    margin: auto; border-radius: 10px;
+    border: 2px solid #1dc88e;
+    height: 230px;
+    padding: 0px;}
+
+.doctordetaildisplaybox h1{text-transform: uppercase;
+    margin: 15px 0 5px 0; word-break: break-word;
+    color: #000;
+    font-weight: 600;
+    font-size: 25px;
+    background: #1dc88e;
+    text-align: center;
+    padding: 10px;}
+.doctordetaildisplaybox h3{text-transform: uppercase;
+    margin: 0px 0 10px 0; word-break: break-word;
+    background: #1dc88e;
+    padding: 10px;
+    font-size: 20px;
+    color: #000;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;}
+.doctordetaildisplaybox h2{text-transform: uppercase; margin: 0px 0 8px 0; padding: 10px; font-size: 30px;
+     color: #000; text-align: center; word-break: break-word;
+     background: #1dc88e;}
+
+.drtokenname.dphotobox{ margin: 5px; text-align: center;
+    line-height: normal; border-radius: 20px;
+    padding: 2px;
+    display: inline-block;}
+
+span.uphoto{ display: inline-block; width: 30px;}    
+span.uphoto img{max-width:100%;}
+.custompopup.callpopup h1{font-size:20px;padding:5px 8px}
+.custompopup.callpopup .tabbtn{line-height:30px}
+.custompopup.callpopup .startsub{font-size:14px}
+
+.photoupdatebtn{background: #009688; border:none; color: #fff; text-transform: uppercase; padding: 3px 10px;}
+
+.alertbox{width: 100%; display: none;
+    position: fixed;
+    background: rgba(0,0,0,0.6);
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 9999;
+    height: 100%;}
+.alertboxinner{width:650px; padding: 30px; margin: 25vh auto; background:#ffc107;} 
+.alertboxinner h2{margin:0px; padding: 0px; color: #f00;}  
+.alertboxinner h5{margin:0px; padding: 10px 0;} 
+.alertboxinner h6{margin: 0px;
+    padding: 0 0 20px 0;
+    color: #f00;
+    font-size: 20px;}
+
+.alertboxinner h6 span{font-size: 25px;
+        display: inline-block;
+        padding: 0 10px;}
+
+.boxdept.callsection{float:none;}
+.userphoto{position: absolute; width:70px; right:0px; top:0px;}
+.userphoto img{max-width:100%;}
+
+a.drtokenname{background: red;
+    line-height: 20px;
+    padding: 7px 10px;}
+.depdisplay.depcall span{font-size: 15px;}   
+
+a.deptokenname{background: red; font-size: 20px;
+    line-height: 20px;
+    padding: 7px 10px !important;}
+
+.depdisplay.depcall sup{right:-8px; font-size: 15px;} 
+
+.superadminbox{width:100%; margin: 5px 0 0 0px; padding: 0px; float: left;}
+.superadminbox ul{ list-style: none; margin: 0px; padding: 0px;}
+.superadminbox ul li{    display: inline-block;
+    background: #79b26a;
+    padding: 10px;
+    margin: 10px;
+    width: 225px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px #000;
+    color: #000;}
+
+    .submitlimitbtn{width:100%; margin: 10px 0 20px 0; padding: 0px; text-align: center;}
+
+    .superadminbox ul li span{display:block;}  
+    .superadminbox ul li span:last-child{font-weight: 900; font-size: 30px;} 
+
+    .superadminformblock{width:100%; margin: 0px; padding: 10px;}
+    .superadminformblock ul{list-style: none; margin: 0px; padding: 0px;}
+    .superadminformblock ul li{display: inline-block; margin: 5px; padding: 10px 15px; background: #79b26a; border-radius: 5px; width:48%;}
+    .superadminformblock ul li span{display: inline-block; text-transform: uppercase;}
+    .superadminformblock ul li div.fblock{width:100%; margin: 0px; padding: 0px; float: left;}
+    .superadminformblock ul li span:first-child{width: 50%; word-break: break-all; text-align: right;}
+    .superadminformblock ul li span:last-child{width: 47%;}
+    .superadminformblock ul li input[type="text"]{border:1px solid #80b17c; height: auto; padding: 5px 10px; border-radius: 5px; 
+        width:85%; margin: 0px; background: #9bce97;}
+
+        .patcurrentstatusb { display: inline-block;
+                margin: 0 10px 0 auto;
+                width: 38px;
+                height: 38px;
+                background-color: #34ef25;
+                border-radius: 50%;
+                box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 4px 1px, inset #077427 0 0px 9px, rgb(9, 139, 78) 0 2px 14px;
+            }
+
+      .advertisedisplay{width:100%; margin:0px; padding: 0px; border: 3px solid #006140; box-shadow: 0 1px 4px #333; 
+        height: 76.5vh; overflow: hidden; }
+      .advertisedisplay img{max-width:100%;}
+
+      .boxrow2 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-bottom: 4px solid #ff0;
+    }
+
+    .boxrow2 span.spth{display: block;
+        background: #006140;
+        color: #fff; box-shadow: 0px 3px 4px #000;
+        font-size: 40px;
+        text-transform: uppercase;
+        padding: 0 15px;
+        text-align: center;}
+    .boxrow2 span.sptd{display: block;
+        color: #000; box-shadow: 0px 3px 4px #000;
+        font-size: 39px;
+        text-transform: uppercase;
+        padding: 0 15px; font-weight: 900;
+        text-align: center;}
+    .boxrow2 table.bordered>tbody>tr,  .boxrow2 table.bordered>thead>tr,  .boxrow2 thead {
+            border-bottom: none;
+        }
+    .boxrow2 table>tbody>tr>td, .boxrow2 table>thead>tr>th{padding:10px;} 
+
+        .boxrow2 .patcurrentstatusb, .boxrow2 .patcurrentstatus{ margin: 10px 10px 0 auto; float: left;}       
+
+        .boxrow2 tr:nth-child(even) span.sptd{background: #72a266;}
+        .boxrow2 tr:nth-child(odd) span.sptd{background: #9ccf97;}    
+
+     
+      .advdisplayimg{width: 100%; margin: 10px 0 0 0px; padding: 0px;}
+      .advdisplayimg img{max-width: 100%;}
+
+      h1.display3heading{margin: 0px; padding:12px 0px;}
+      h1.display3heading .displaytime.displaytime2{margin:0px;}
+
+      .queuelogo.displaylogo{border-bottom: none;}
+      .queuelogo.displaylogo span:first-child{height:70px; width: 70px; margin:5px;}
+      .rowbg{background: #9fccbf; box-shadow: 0 1px 4px #333;}
+
+      button.cssbtn{font-size: 12px; color: #fff; background: #009688; border:none; padding: 2px 5px; text-transform: uppercase;} 
+button.cssbtn:hover{background: #03b9a7;}   
+
+.popuptoken{margin: auto; z-index: 9;
+    width: 500px;
+    background: #f00;
+    padding: 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 10px;}
+.popupmain{ width: 100%; margin: 0px; position: relative; }
+.tknpopupbox{width:100%; margin: 0px; padding: 10px; color:#fff; text-transform: uppercase; text-align: center;}
+
+.validregistration{width: 100%; margin: 0px; padding: 0px; border:0px; background: #f00; color:#fff;}
+.validregistration th, .validregistration td{margin: 0px; padding: 4px 15px; border: 1px solid #ccc; text-align: center; font-size:13px;}
+.validregistration caption{background: #f00; color:#fff; font-size:14px; padding:5px; text-transform: uppercase;}
+.notfbox{display: block; color:#128807; padding: 5px; text-transform: uppercase;}
+
+.custom-modal.modal{margin: auto;}
+.custom-modal.modal .customform h3{margin: 0px 0 5px 0; display: inline-block;
+    padding: 0px 0 10px 0; text-align: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    }
+.custom-modal.modal .customform h4{margin: 5px 10px 0px 5px;
+    padding: 8px 20px; font-size: 15px; box-shadow: 0 1px 2px 1px #000;
+    display: inline-block;
+    border-bottom: none;
+    background: #006140;
+    color: #fff;}
+
+    
+    .custom-modal.modal .customform span.select2.select2-container{width:100% !important;}
+    .refboxmrg{margin: 20px 0; text-align: left;}
+    .refboxmrg ul{list-style: none; margin: 0px; padding: 0px;}
+    .refboxmrg ul li{display: inline-block; padding: 5px 10px; color: #fff;}
+    .refboxmrg ul li:first-child{background: lightcoral;}
+    .refboxmrg ul li:nth-child(2){background: lightseagreen;}
+    .refboxmrg ul li:last-child{background: limegreen;}
+
+    .popuptoken.referrralbox{width:75%;}
+    .popuptoken.referrralbox ul{list-style: none; margin: 0px; padding: 0px;}
+    .popuptoken.referrralbox ul li{display: inline-block;
+        margin: 0 8px;
+        padding: 2px;
+        font-size: 14px;}
+
+    #toast-container {
+            top: 8%;
+            right: 0;
+            max-width: fit-content;
+            left: 0;
+            margin: auto;
+        }
+    .oldpatientsection{width: auto;
+        margin: 0px;
+        padding: 0;
+        background: transparent;
+        float: left;
+        position: fixed;
+        left: 0;} 
+
+    .oldpatientsection.callold{width: 100%;
+        margin: 0px 10px 15px 0;
+        padding: 0px 0 15px;
+        background: transparent;
+        float: left;
+        position: relative;
+        left: 0;
+        border-bottom: 2px solid #e0e0e0;} 
+    .oldpatientsection.callold .btnreview{padding:5px 10px; font-size: 18px;} 
+    
+    .multiroom{font-weight: 400;
+        margin: 0 6px 0 0;
+        padding: 0 6px 0 0;
+        border-right: 2px solid #fff;}
+    .multiroom:last-child{margin: 0 0px 0 0;
+        padding: 0 0px 0 0;
+        border-right: none;}    
+    
+    .validregistration.reviewverify{background: #72a266; color: #000; box-shadow: 0 2px 4px #022b1d;}
+    .validregistration.reviewverify button{border: none; box-shadow: 0 0px 4px #000;
+        background: #006140;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0px 0;
+        font-size: 10px;
+        padding: 5px 10px;} 
+        .validregistration.reviewverify button:hover{background: #057952;}
+        .validregistration.reviewverify tr:first-child th{padding:20px 0 5px;}
+        .validregistration.reviewverify tr:nth-child(2) th{padding: 10px 10px 0px 10px;}
+        .validregistration.reviewverify tr:nth-child(3) td{padding: 5px 10px 20px;}
+    .validregistration.reviewverify th, .validregistration.reviewverify td{border:none;} 
+    .btnreview{background: #ff9800; color: #fff; text-transform: uppercase; padding: 7px 10px;
+        font-size: 30px; box-shadow:0 3px 4px #333; text-decoration: none;}      
+    .clr_red{color:#f00; font-weight: 600;}  
+    .clr_green{color:#00FF00; font-weight: 600;}  
+    .clr_yellow{color: #FFA500; font-weight: 600;}  
+    .notfbox.revnoty{color:#f00;} 
+    .notfbox.revnoty strong{color:#128807;}   
+
+      a.dispensorybutton{background: #e65100;
+        color: #f2f2f2;
+        text-transform: uppercase;
+        padding: 10px 12px;
+        margin: 0 10px;
+        font-size: 12px;
+        border-radius: 20px;
+        box-shadow: 0 0 2px #000;}
+        a.dispensorybutton:hover{opacity: 0.6;}   
+     .btndisabled{background-color: #DFDFDF!important;
+        box-shadow: none !important;
+        color: #9F9F9F!important;
+        cursor: not-allowed;}   
+      
+      .patcurrentstatus { display: inline-block !important;
+        margin: 0 10px 0 auto; 
+        width: 38px;
+        height: 38px;
+        background-color: #F00;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+        -webkit-animation: blinkRed 1s infinite;
+        -moz-animation: blinkRed 1s infinite;
+        -ms-animation: blinkRed 1s infinite;
+        -o-animation: blinkRed 1s infinite;
+        animation: blinkRed 1s infinite;
+      }
+      
+      @-webkit-keyframes blinkRed {
+          from { background-color: #F00; }
+          50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, 
+            inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+          to { background-color: #F00; }
+      }
+      @-moz-keyframes blinkRed {
+          from { background-color: #F00; }
+          50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+          to { background-color: #F00; }
+      }
+      @-ms-keyframes blinkRed {
+          from { background-color: #F00; }
+          50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+          to { background-color: #F00; }
+      }
+      @-o-keyframes blinkRed {
+          from { background-color: #F00; }
+          50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+          to { background-color: #F00; }
+      }
+      @keyframes blinkRed {
+          from { background-color: #F00; }
+          50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+          to { background-color: #F00; }
+      }    
+
+      @media print {
+        .btn[data-tooltip]{ display: none !important; }
+      }
